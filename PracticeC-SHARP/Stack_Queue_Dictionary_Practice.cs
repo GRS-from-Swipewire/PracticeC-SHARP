@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace PracticeC_SHARP
 {
-    internal class StackPractice
+    internal class Stack_Queue_Dictionary_Practice
     {
-        public StackPractice()
+        public Stack_Queue_Dictionary_Practice()
         {
             Stack<int> var = new Stack<int>();
             var.Push(1);
@@ -21,8 +21,8 @@ namespace PracticeC_SHARP
             Console.WriteLine("Stack elements:");
             foreach(int ele in var)
             {
-                Console.WriteLine(ele);
-            } 
+                Console.WriteLine(ele); 
+            } //Stack
 
             Queue<int> var1 = new Queue<int>();
             var1.Enqueue(1);
@@ -31,11 +31,12 @@ namespace PracticeC_SHARP
             var1.Enqueue(4);
             var1.Enqueue(5);
             var1.Peek();
+            var1.Dequeue() ;
             Console.WriteLine("Queue elements:");
             foreach (int ele in var1)
             {
                 Console.WriteLine(ele);
-            }
+            } //Queue
 
             Dictionary<int, string> var2 = new Dictionary<int, string>();
             /*var2.Add(1, "asd");
@@ -53,7 +54,7 @@ namespace PracticeC_SHARP
             for (int i = 0; i < n; i++)
             {
                 Console.WriteLine(var2[i]);
-            }
+            } //Dictionary
         }
     }
 }

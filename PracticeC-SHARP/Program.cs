@@ -38,7 +38,11 @@ namespace PracticeC_SHARP
                 listOfStudents.Add(ob);
             }*/ //<----class example
 
-            new StackPractice();
+            /*new Stack_Queue_Dictionary_Practice();*/
+            Interface_And_GetterSetter_Practice ob = new Interface_And_GetterSetter_Practice();
+            ob.setDogName("tiger");
+            ob.printDogName();
+            //new Rough();
         }
     }
 }
