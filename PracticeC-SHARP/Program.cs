@@ -39,10 +39,11 @@ namespace PracticeC_SHARP
             }*/ //<----class example
 
             /*new Stack_Queue_Dictionary_Practice();*/
-            Interface_And_GetterSetter_Practice ob = new Interface_And_GetterSetter_Practice();
+            /*Interface_And_GetterSetter_Practice ob = new Interface_And_GetterSetter_Practice();
             ob.setDogName("tiger");
-            ob.printDogName();
+            ob.printDogName();*/
             //new Rough();
+            new Emoji();
         }
     }
 }

@@ -11,6 +11,7 @@ namespace PracticeC_SHARP
       
         public Rough()
         {
+
             /*int num = 3;
             int tempNum = num;
             int eachPrintCount = num;
@@ -36,8 +37,9 @@ namespace PracticeC_SHARP
                 tempNum--;
                 eachPrintCount--;
             }*/
-           
-
+            /* string x = "asdsf";
+             x.Select((c, i) => i).Where(i => char.IsLower(x[i])).ToArray();*/
+            
         }
     }
 }
